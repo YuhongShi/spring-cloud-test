@@ -1,9 +1,9 @@
 server:
-  port: 9002
+  port: 10086
 #连接池
 spring:
   application:
-    name: bill-service
+    name: bill-service2
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
