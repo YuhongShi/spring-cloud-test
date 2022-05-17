@@ -21,7 +21,7 @@ mybatis:
 #注册实例时，更倾向于使用Ip地址，而不是host名
 prefer-id-address: true
 # ip地址
-ip-address: 127.0.0.1
+ip-address: 172.17.0.3
 #续约间隔,默认30s
 lease-renewal-interval-in-seconds: 5
 #服务时效时间，默认90s
@@ -31,4 +31,4 @@ lease-expiration-duration-in-seconds: 5
 eureka:
   client:
     service-url:
-      defaultZone: http://127.0.0.1:9001/eureka
+      defaultZone: http://172.17.0.3/eureka
